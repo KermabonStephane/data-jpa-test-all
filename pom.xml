@@ -9,11 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.demis27</groupId>
-	<artifactId>data-jpa-test</artifactId>
+	<artifactId>data-jpa-test-all</artifactId>
 	<version>1.0.0</version>
 	<name>data-jpa-test</name>
-	<description>A simple example of DataJpaTest</description>
+	<description>A set of DataJpaTest example</description>
 	<url>https://github.com/KermabonStephane/data-jpa-test</url>
+	<packaging>pom</packaging>
+	<modules>
+		<module>data-jpa-test</module>
+	</modules>
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
