@@ -1,0 +1,10 @@
+---
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: kermabon Stéphane
+      changes:
+        - sqlFile:
+            path: "changelog-01-create-schema.sql"
+            relativeToChangelogFile: true
+            splitStatements: true
