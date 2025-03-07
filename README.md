@@ -9,10 +9,11 @@ This service have just one method that return the list of employee on the databa
 * A simple test with DataJpaTest.
 * A test with DataJpaTest that use liquibase.
 * A test with DataJpaTest that use the hibernate `create-drop` feature to create the test database.
+* A test with DataJpaTest that use flyway.
 
 ## List of examples: 
-In the futur I add:
+In the future I add:
 
-* A test with DataJpaTest that use flyway (in progress).
 * A test with DataJpaTest that use test container (on postgresql)
 * A test with DataJpaTest that use Zonky.
+* A test with hql query

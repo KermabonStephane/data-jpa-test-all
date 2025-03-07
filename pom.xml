@@ -16,7 +16,10 @@
 	<url>https://github.com/KermabonStephane/data-jpa-test</url>
 	<packaging>pom</packaging>
 	<modules>
-		<module>data-jpa-test</module>
+		<module>simple</module>
+		<module>liquibase</module>
+		<module>auto-create</module>
+		<module>flyway</module>
 	</modules>
 	<licenses>
 		<license>
