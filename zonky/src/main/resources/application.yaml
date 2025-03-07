@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: data-jpa-test-zonky
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    datasource:
+      username: postgres
+      password: postgres
+      url: jdbc:postgresql://localhost:5432/database
+
+  liquibase:
+    change-log: classpath:db/changelog/changelog-master.yaml

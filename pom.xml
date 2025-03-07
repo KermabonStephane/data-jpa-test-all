@@ -11,7 +11,7 @@
 	<groupId>org.demis27</groupId>
 	<artifactId>data-jpa-test-all</artifactId>
 	<version>1.0.0</version>
-	<name>data-jpa-test</name>
+	<name>data-jpa-test-all</name>
 	<description>A set of DataJpaTest example</description>
 	<url>https://github.com/KermabonStephane/data-jpa-test</url>
 	<packaging>pom</packaging>
@@ -20,6 +20,7 @@
 		<module>liquibase</module>
 		<module>auto-create</module>
 		<module>flyway</module>
+		<module>zonky</module>
 	</modules>
 	<licenses>
 		<license>
